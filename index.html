@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sonidos de la granja</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="icon" type="image/png" href="images/granjaIcono.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Sonidos de la granja</h1>
+    </header>
+    <main class="contenedor_juego">
+        <section class="instrucciones">
+            <p>Haz clic en los animales para escuchar sus sonidos</p>
+        </section>
+
+        <section class="teclado">
+            <button class="tecla tecla_vaca">
+                Vaca
+                <img src="images/imagenVaca.png" class="imagen_animal" alt="dibujo de una vaca">
+            </button>
+            <button class="tecla tecla_gallina">
+                Gallina
+                <img src="images/imagenGallina.png" class="imagen_animal" alt="dibujo de una gallina">
+            </button>
+            <button class="tecla tecla_burro">
+                Burro
+                <img src="images/imagenBurro.png" class="imagen_animal" alt="dibujo de un burro">
+            </button>
+
+            <button class="tecla tecla_caballo">
+                Caballo
+                <img src="images/imagenCaballo.png" class="imagen_animal" alt="dibujo de un caballo">
+            </button>
+            <button class="tecla tecla_cerdo">
+                Cerdo
+                <img src="images/imagenCerdo.png" class="imagen_animal" alt="dibujo de un cerdo">
+            </button>
+            <button class="tecla tecla_oveja">
+                Oveja
+                <img src="images/imagenOveja.png" class="imagen_animal" alt="dibujo de una oveja">
+            </button>
+
+            <button class="tecla tecla_pato">
+                Pato
+                <img src="images/imagenPato.png" class="imagen_animal" alt="dibujo de un pato">
+            </button>
+            <button class="tecla tecla_pavo">
+                Pavo
+                <img src="images/imagenPavo.png" class="imagen_animal" alt="dibujo de un pavo">
+            </button>
+            <button class="tecla tecla_pollito">
+                Poliito
+                <img src="images/imagenPollito.png" class="imagen_animal" alt="dibujo de un pollito">
+            </button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <img src="images/icons8-derechos-de-autor-16.png" alt="Copyright" class="footer__img">
+        <p class="footer__texto"> 
+            Desarrollado por Florencia Vergara
+        </p>
+    </footer>
+
+    <img src="images/Diseño sin título (37) (1).png" class="campo" alt="campo">
+    <img src="images/Diseño sin título (38) (1).png" class="granja" alt="campo">
+    <img src="images/Diseño sin título (39) (1).png" class="animales" alt="campo">
+
+    <audio src="sounds/SonidoDeVaca.mp3" id="sonido_tecla_vaca"></audio>
+    <audio src="sounds/SonidoDeBurro.mp3" id="sonido_tecla_burro"></audio>
+    <audio src="sounds/SonidoDeCaballo.mp3" id="sonido_tecla_caballo"></audio>
+    <audio src="sounds/SonidoDeCerdo.mp3" id="sonido_tecla_cerdo"></audio>
+    <audio src="sounds/SonidoDeGallina.mp3" id="sonido_tecla_gallina"></audio>
+    <audio src="sounds/SonidoDeOveja.mp3" id="sonido_tecla_oveja"></audio>
+    <audio src="sounds/SonidoDePato.mp3" id="sonido_tecla_pato"></audio>
+    <audio src="sounds/SonidoDePavo.mp3" id="sonido_tecla_pavo"></audio>
+    <audio src="sounds/SonidoDePollito.mp3" id="sonido_tecla_pollito"></audio>
+    
+    
+
+    <script src="main.js"></script> 
+</body>
+</html>
